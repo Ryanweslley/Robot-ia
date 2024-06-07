@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #007bff;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Robot IA</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Robot IA é um projeto dedicado ao desenvolvimento de inteligência artificial aplicada a robótica. Nossa missão é criar soluções inovadoras que integrem a IA com tecnologias robóticas de ponta.</p>
+    </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <p>Conheça alguns dos projetos em que estamos trabalhando:</p>
+        <ul>
+            <li>Projeto 1 - Desenvolvimento de um robô autônomo para serviços domésticos.</li>
+            <li>Projeto 2 - Sistema de navegação inteligente para veículos autônomos.</li>
+            <li>Projeto 3 - Assistente virtual com capacidades avançadas de aprendizado.</li>
+        </ul>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Confira nossos últimos posts e atualizações:</p>
+        <ul>
+            <li>Post 1 - <a href="#">Novidades no campo da IA e robótica</a></li>
+            <li>Post 2 - <a href="#">Como a IA está transformando a indústria</a></li>
+            <li>Post 3 - <a href="#">Desafios e oportunidades na robótica autônoma</a></li>
+        </ul>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através das redes sociais ou envie um email para contato@robotia.com.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Robot IA. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
